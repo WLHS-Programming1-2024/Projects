@@ -31,6 +31,8 @@ def equilateral_triangle(side_length):
 
 def main():
   # call your functions here as needed
+  # example:
+  # square(user_number)
 
 # don't change code below this line
 if __name__ == '__main__':
