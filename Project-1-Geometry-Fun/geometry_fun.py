@@ -19,8 +19,8 @@ def square(side_length):
     ------
     None
     """
-    
-    print("")
+    perimeter = 4*side_length
+    print(f"\tThe perimeter of the square is {perimeter}")
 
 def circle(diameter):
     print("")
@@ -31,6 +31,10 @@ def equilateral_triangle(side_length):
 
 def main():
     # call your functions here as needed
+    user_number = int(input("Enter a number: "))
+    square(user_number)
+    circle(user_number)
+    equilateral_triangle(user_number)
     # example:
     # square(user_number)
 
